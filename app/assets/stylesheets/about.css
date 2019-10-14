@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700&display=swap');
+@import "about-nav.css";
+@import "/assets/about-footer.css";
+@import "about-container.css";
+
+body {
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/* tablet design */
+
+@media only screen and (max-width: 800px) {
+  .grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .text {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  .cv {
+    margin-left: 300px;
+  }
+
+  .photo {
+    display: none;
+  }
+
+}
+
+
+/* phone design  */
+@media only screen and (max-width: 500px) {
+  .navbar-link {
+    font-size: 12px;
+    height: 2%;
+  }
+
+  .grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .text {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .cv {
+    margin-left: 100px;
+  }
+
+  .photo {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar-link {
+    font-size: 8px;
+    height: 2%;
+  }
+
+
+}

@@ -1,0 +1,44 @@
+/* CSS to style the buttons */
+
+.hero-text-box {
+  position: absolute;
+  top: 23%;
+  left: 15%;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  /* height: calc(100vh - 140px); */
+  /* background: yellow; */
+  align-content: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  color: white;
+  font-size: 20px;
+}
+
+h1 {
+  margin-left: 20px;
+}
+
+
+.button-home {
+  background: #C7B198;
+  text-decoration: none;
+  margin: 20px;
+  padding: 8px;
+  border: 1px;
+  border-radius: 25px;
+}
+
+/* this makes the links go on one line */
+.hero-button-home {
+  display: flex;
+}
+
+.hero-button-home a {
+  color: white;
+}
+
+.hero-button-home a:hover {
+  background: #225165;
+}

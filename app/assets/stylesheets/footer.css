@@ -1,0 +1,38 @@
+/* CSS to style footer */
+
+.footer-homepage {
+  position: fixed;
+  left: 1%;
+  bottom: 0;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  width: 98%;
+  background-color: transparent;
+  border-top: none;
+}
+
+.footer-links-homepage {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  /* margin-left: 10px; */
+  /* padding-right: 4%; */
+
+}
+
+.footer-link-homepage {
+  color: white;
+  font-size: 30px;
+  padding: 0px 7px;
+  height: 100%;
+}
+
+.footer-link-homepage:hover {
+  color: #C7B198;
+}
+
+.footer-tagline-homepage {
+  color: white;
+  /* padding-right: 4%; */
+}

@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700&display=swap');
+@import "./blog-nav.css";
+@import "./blog-footer.css";
+@import "./portfolio-cards.css";
+@import "./blog-cards.css";
+
+
+
+body {
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.blog {
+  color: black;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+/* p {
+  margin: 10px;
+} */
+
+
+
+@media only screen and (max-width: 500px) {
+  .navbar-link {
+    font-size: 12px;
+    height: 2%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar-link {
+    font-size: 8px;
+    height: 2%;
+  }
+}
+

@@ -1,0 +1,28 @@
+/* CSS to style the nav */
+
+
+.nav-home {
+  width: 100vw;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: none;
+}
+
+.navbar-links-home {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link-home {
+  padding: 5px 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-home a:hover {
+  color: #225165;
+}
+

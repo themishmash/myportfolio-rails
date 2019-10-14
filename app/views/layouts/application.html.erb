@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PortfolioProject</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src="https://kit.fontawesome.com/438b1f8054.js" crossorigin="anonymous"></script>
+     <link integrity="sha384-Jy+Def50NJCShtSBnvxLcfA/4kI+CJokZsO/D773V18XDg71pwWxYtCtgHW0ckSb" rel="stylesheet" href="/assets/application.css">
+
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>

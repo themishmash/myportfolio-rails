@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700&display=swap');
+@import "about-nav.css";
+@import "./portfolio-footer.css";
+@import "./portfolio-cards.css";
+
+body {
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  height: 80vh;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.content {
+  /* height: calc(100vh - 10% - 70px); */
+  /* width: 100vw; */
+  /* height: 500px; */
+}
+
+/* phone design  */
+@media only screen and (max-width: 500px) {
+  .navbar-link {
+    font-size: 12px;
+    height: 2%;
+  }
+
+.omni{
+  margin-bottom: 100px;
+}
+
+.portfolio-container {
+  margin-top: 0px;
+}
+}
+
+@media only screen and (max-width: 380px) {
+  .navbar-link {
+    font-size: 12px;
+    height: 2%;
+  }
+
+.bgimg1, .bgimg2, .bgimg3 {
+  background-size: 270px 320px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar-link {
+    font-size: 8px;
+    height: 2%;
+  }
+
+.bgimg1, .bgimg2, .bgimg3 {
+  background-size: 250px 300px;
+}
+}
+
+
+
+

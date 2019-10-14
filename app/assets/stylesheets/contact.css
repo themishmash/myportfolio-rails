@@ -1,0 +1,155 @@
+/* This CSS document contains styling for the form */
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700&display=swap');
+@import "./about-nav.css";
+@import "./portfolio-footer.css";
+
+body {
+  margin: 0px;
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  margin: 30px;
+  padding-left: 90px;
+}
+
+
+.form-header {
+  margin-top: 100px;
+} 
+
+.form-container {
+  width: 100%;
+  padding: 20px;
+  /* border: 1px solid black; */
+  height: calc(100% - 10% - 70px);
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../photos/Draken-snow-big-landscape.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputdivs {
+  display: flex;
+  margin: 15px;
+  width: 40%;
+  /* border: 1px solid red; */
+}
+
+.inputdivs input {
+  border: 1px solid #C7B198;
+  width: 100%;
+  padding: 5px;
+  margin: 0 10px;
+  border-radius: 5px;
+}
+
+.inputdivs label {
+  width: 140px;
+}
+
+label {
+  font-weight: bold;
+}
+
+/* fixed footer */
+footer {
+  left: 0%;
+}
+
+/********* comment part of form ********/
+
+.send-button {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.submit:hover {
+  background: #225165;
+}
+
+.submit {
+  background: #C7B198;
+  text-decoration: none;
+  margin-left: 90px;
+  border: 1px;
+  border-radius: 25px;
+  color: white;
+  width: 70px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+value {
+  font-weight: bold;
+}
+
+textarea {
+  resize: none;
+}
+
+#comment {
+  height: 60px;
+  width: 100%;
+  padding: 5px;
+  margin: 0 10px;
+  border: 1px solid #C7B198;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar-link {
+    font-size: 12px;
+    height: 2%;
+  }
+
+  .inputdivs {
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  h2 {
+    padding-left: 0px;
+    margin: 0px;
+    padding-top: 80px;
+    
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  .form-container{
+    padding: 0px;
+  }
+
+  .form-header {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .navbar-link {
+    font-size: 8px;
+    height: 2%;
+  }
+}

@@ -1,0 +1,78 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700&display=swap');
+@import "/footer.css";
+@import "/navbar.css";
+@import "/herotext.css";
+
+body {
+  margin: 0px;
+}
+
+.home {
+  
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/assets/photos/Draken-snow-homepage.JPG); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+}
+
+
+/* phone design  */
+@media only screen and (max-width: 500px) {
+  .navbar-link {
+    font-size: 12px;
+    height: 2%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+  .hero-text-box {
+    top: 30%;
+  }
+  .button {
+    margin: 15px;
+    padding: 6px;
+  }
+  .hero-button a {
+    font-size: 15px;
+  }
+
+}
+
+
+
+/* really small phone */
+@media only screen and (max-width: 320px) {
+  .navbar-link {
+    font-size: 8px;
+    height: 2%;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .hero-text-box {
+    left: 8%;
+  }
+
+}
+

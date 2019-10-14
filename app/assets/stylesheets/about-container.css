@@ -1,0 +1,83 @@
+/* This CSS document contains styling for the button */
+
+
+.container-about {
+  height: calc(100vh - 10% - 70px);
+  width: 100vw;
+  /* background: dodgerblue; */
+  
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.grid-about {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+ 
+}
+
+.white-about  {
+  grid-row: 1 / 5;
+  grid-column: 1 / 6;
+  background: white;
+}
+
+.colour-about {
+  grid-row: 1 / 5;
+  grid-column: 6 / 11;
+  background: #C3DFE0;
+}
+
+.text-about {
+  grid-row: 2 / 3;
+  grid-column: 2 / 5;
+}
+
+.text-about h2 {
+  color: black;
+  
+}
+
+.text-about p {
+  color: black;
+}
+
+.photo-about {
+  grid-row: 2 / 4;
+  grid-column: 5 / 10;
+  background: url(/assets/photos/me-draks-cropped);
+  /* background-position: top; */
+  background-size: cover;
+  margin-left: 50px;
+  border-radius: 5px;
+}
+
+.cv-about {
+  grid-row: 3 / 4;
+  grid-column: 3 / 5; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+.cv-about a:hover {
+  background: #225165;
+}
+
+.cv-about a {
+  text-decoration: none;
+}
+
+.button-about {
+  background: #C7B198;
+  text-decoration: none;
+  margin: 20px;
+  padding: 8px;
+  border: 1px;
+  border-radius: 25px;
+  color: white;
+}
